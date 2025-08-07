@@ -64,3 +64,40 @@ footer {
   max-width: 150px;
   height: auto;
 }
+
+.hero {
+  background: linear-gradient(to right, #0f0f0f, #1a1a2e);
+  color: #ffffff;
+  text-align: center;
+  padding: 100px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  max-width: 700px;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.btn-primary {
+  background-color: #0099ff;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #007acc;
+                              }
