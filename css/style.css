@@ -6,11 +6,11 @@ body {
 }
 
 header {
-  background: #0d1117;
-  padding: 20px;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
+  background-color: #000000; /* This sets pure black */
+  padding: 1rem;
 }
 
 .logo {
