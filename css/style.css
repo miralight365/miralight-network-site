@@ -101,3 +101,37 @@ footer {
 .btn-primary:hover {
   background-color: #007acc;
                               }
+
+/* === Roadmap Section Styling === */
+.roadmap {
+  padding: 80px 20px;
+  background: #111;
+  color: #fff;
+  text-align: center;
+}
+
+.roadmap h2 {
+  font-size: 2.5em;
+  margin-bottom: 40px;
+  color: #00bfff;
+}
+
+.roadmap-phase {
+  margin-bottom: 50px;
+}
+
+.roadmap-phase h3 {
+  font-size: 1.8em;
+  color: #ffd700;
+  margin-bottom: 20px;
+}
+
+.roadmap-phase ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.roadmap-phase ul li {
+  margin: 10px 0;
+  font-size: 1.1em;
+                                }
