@@ -14,7 +14,9 @@ header {
 }
 
 .logo {
-  height: 40px;
+  height: 40px;           /* Adjust the height to make it small */
+  width: auto;            /* Keep the width proportional */
+  display: block;
 }
 
 nav ul {
