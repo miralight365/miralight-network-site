@@ -123,6 +123,7 @@ footer {
 .roadmap-phase h3 {
   font-size: 1.8em;
   color: #ffd700;
+  
   margin-bottom: 20px;
 }
 
@@ -135,3 +136,42 @@ footer {
   margin: 10px 0;
   font-size: 1.1em;
                                 }
+
+/* === Tokenomics Section === */
+.tokenomics {
+  background: #000;
+  color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.tokenomics h2 {
+  font-size: 2.5em;
+  margin-bottom: 40px;
+  color: #00bfff;
+}
+
+.tokenomics-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.token-box {
+  background: #1a1a1a;
+  border: 1px solid #333;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  transition: transform 0.3s ease;
+}
+
+.token-box:hover {
+  transform: translateY(-5px);
+}
+
+.token-box h3 {
+  color: #ffd700;
+  margin-bottom: 10px;
+  }
