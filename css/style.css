@@ -293,3 +293,59 @@ header {
   font-weight: 600;
   color: white;
 }
+
+/* ===== Header Styling ===== */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000; /* Black header background */
+  padding: 10px 20px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+  width: auto;
+  margin-right: 10px;
+}
+
+.logo-text {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.litepaper-btn {
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  padding: 10px 16px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.litepaper-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .logo {
+    height: 32px;
+  }
+
+  .logo-text {
+    font-size: 1.1rem;
+  }
+
+  .litepaper-btn {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+}
