@@ -278,3 +278,18 @@ header {
     height: 32px;
   }
   }
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 40px; /* Makes the logo straight and tidy */
+  margin-right: 10px; /* Space between logo and text */
+}
+
+.logo-text {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: white;
+}
