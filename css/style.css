@@ -217,3 +217,17 @@ footer {
   margin-bottom: 10px;
   color: #ffd700;
   }
+
+/* === Footer === */
+footer {
+  background: #000;
+  color: #ccc;
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 0.95em;
+  border-top: 1px solid #222;
+}
+
+.footer-container p {
+  margin: 5px 0;
+  }
