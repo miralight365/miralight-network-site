@@ -233,3 +233,48 @@ footer {
 .footer-container p {
   margin: 5px 0;
   }
+
+/* ===== Header Styling ===== */
+header {
+  background-color: #000; /* black background to match the logo */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+}
+
+.litepaper-btn {
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  padding: 10px 16px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.litepaper-btn:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+  .litepaper-btn {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+
+  .logo {
+    height: 32px;
+  }
+  }
